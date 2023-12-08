@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind Script  -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!-- google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- box-icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://www.transparentpng.com/thumb/web-hosting/ilc5wD-web-hosting-hd-photo-png.png">
+	
+	<!--Title-->
+    <title>Web Hosting</title>
+
+    <!-- style -->
+    <style>
+        /* google fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');  /*font-family: 'Mulish', sans-serif;*/
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); /*font-family: 'Oswald', sans-serif;*/
+
+        *{
+            font-family: 'Mulish', sans-serif;
+        }
+
+
+        h1,h2,h3,h4,h5,h6{
+            font-family: 'Oswald', sans-serif;
+        }
+
+        nav path{
+            fill: white;
+        }
+
+        .heading span{
+            position: relative;
+            width: max-content;
+        }
+
+        .heading span::before{
+            position: absolute;
+            content: "";
+            width: 50px;
+            height: 2px;
+            background: #eb566c;
+            top: 0;
+            left: -67px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+      
+    <!-- nav & heropage -->
+    <div class="main bg-[#020230] text-white">
+        <nav class="flex justify-between px-4 items-center py-4 lg:px-20">
+            <div class="logo">
+                <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/logo/logo.png" alt="">
+            </div>
+            <ul class="hidden text-[15px] font-medium space-x-10 items-center lg:flex">
+                <li class="hover:text-[#eb566c] cursor-pointer transition duration-300"><a href="">Home</a></li>
+                <li class="hover:text-[#eb566c] cursor-pointer transition duration-300"><a href="">About</a></li>
+                <li class="hover:text-[#eb566c] cursor-pointer transition duration-300"><a href="">Services</a></li>
+                <li class="hover:text-[#eb566c] cursor-pointer transition duration-300"><a href="">Blog</a></li>
+                <li class="hover:text-[#eb566c] cursor-pointer transition duration-300"><a href="">Pages</a></li>
+                <li class="hover:text-[#eb566c] cursor-pointer transition duration-300"><a href="">Contact</a></li>
+                <button class="btn relative overflow-hidden group flex bg-[#eb566c] px-8 py-3 uppercase rounded-full">  
+                    <div class="absolute bg-[#dc3545] inset-0 w-0 transition-all duration-300 ease-in-out group-hover:w-full"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="24" height="24" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="relative"><g><path d="M366 396c-5.52 0-10 4.48-10 10s4.48 10 10 10 10-4.48 10-10-4.48-10-10-10z" fill="#000000" data-original="#000000" class=""></path><path d="m390.622 363.663-47.53-15.84-17.063-34.127c15.372-15.646 26.045-36.348 29.644-57.941L357.801 243H376c16.542 0 30-13.458 30-30v-63C406 67.29 338.71 0 256 0c-82.922 0-150 67.097-150 150v63c0 13.036 8.361 24.152 20 28.28V253c0 16.542 13.458 30 30 30h8.782a108.487 108.487 0 0 0 16.774 25.974 103.947 103.947 0 0 0 4.406 4.741l-17.054 34.108-47.531 15.841C66.112 382.092 26 440.271 26 502c0 5.523 4.477 10 10 10h440c5.522 0 10-4.477 10-10 0-61.729-40.111-119.908-95.378-138.337zM386 213c0 5.514-4.486 10-10 10h-15.262c2.542-19.69 4.236-40.643 4.917-61.28.02-.582.036-1.148.054-1.72H386v53zm-250 10c-5.514 0-10-4.486-10-10v-53h20.298c.033 1.043.068 2.091.107 3.146l.004.107v.009c.7 20.072 2.372 40.481 4.856 59.737H136V223zm20 40c-5.514 0-10-4.486-10-10v-10h8.198l2.128 12.759a105.57 105.57 0 0 0 1.482 7.241H156zm-9.983-123H126.38C131.445 72.979 187.377 20 256 20c68.318 0 124.496 52.972 129.619 120h-19.635c-.72-55.227-45.693-100-101.033-100h-17.9c-55.339 0-100.315 44.773-101.034 100zM247.05 60h17.9c44.809 0 81.076 36.651 81.05 81.41 0 3.147-.025 5.887-.078 8.38l-.001.098-12.508-1.787c-33.98-4.852-66.064-20.894-90.342-45.172A10.003 10.003 0 0 0 236 100c-26.856 0-52.564 12.236-69.558 32.908C170.63 92.189 205.053 60 247.05 60zm-68.51 203c-5.006-16.653-10.734-65.653-12-97.053l13.459-17.946c12.361-16.476 31.592-26.713 52.049-27.888 26.917 25.616 61.739 42.532 98.537 47.786l14.722 2.104c-.984 20.885-2.995 41.843-5.876 61.118l-.003.02c-.916 6.197-1.638 10.185-3.482 21.324-5.296 31.765-28.998 60.49-60.287 68.313a81.338 81.338 0 0 1-39.313 0c-19.537-4.884-37.451-18.402-49.012-37.778h20.386c4.128 11.639 15.243 20 28.28 20h20c16.575 0 30-13.424 30-30 0-16.542-13.458-30-30-30h-20c-13.327 0-24.278 8.608-28.297 20H178.54zm56.619 78.016A101.171 101.171 0 0 0 256 343.2c5.471 0 10.943-.458 16.353-1.346l-17.67 18.687-19.524-19.525zm5.776 34.063-31.718 33.542a381.013 381.013 0 0 1-22.389-51.917l11.911-23.822 42.196 42.197zm70.631-45.585 13.604 27.209a380.908 380.908 0 0 1-22.392 51.933l-33.948-33.948 42.736-45.194zM226 273c0-5.521 4.478-10 10-10h20c5.514 0 10 4.486 10 10 0 5.522-4.479 10-10 10h-20c-5.514 0-10-4.486-10-10zM46.4 492c3.963-49.539 36.932-94.567 81.302-109.363l42.094-14.028a400.869 400.869 0 0 0 28.463 61.74l.056.101.001.002a400.974 400.974 0 0 0 27.372 41.799L237.99 492H46.4zm209.6-8.914-13.562-21.773a10.133 10.133 0 0 0-.486-.711 381.284 381.284 0 0 1-22.532-33.662l35.663-37.714 37.578 37.578A380.863 380.863 0 0 1 270.05 460.6c-.49.653.205-.376-14.05 22.486zM274.01 492l12.301-19.748a400.826 400.826 0 0 0 27.564-42.132c.05-.088.097-.178.147-.266l.018-.032a400.543 400.543 0 0 0 28.164-61.213l42.093 14.028c44.371 14.796 77.34 59.824 81.303 109.363H274.01z" fill="#000000" data-original="#000000" class=""></path><path d="M435.546 451.531c-6.683-13.377-16.472-25.261-28.309-34.367-4.378-3.369-10.656-2.55-14.023 1.828-3.368 4.378-2.549 10.656 1.828 14.024 9.454 7.273 17.272 16.766 22.611 27.453 2.473 4.949 8.483 6.941 13.415 4.477 4.94-2.468 6.945-8.474 4.478-13.415z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                    <h2 class="relative">+91 1234567890</h2>
+                </button>
+            </ul>
+            <div class="menu lg:hidden">
+                <i class="fa fa-duotone fa-bars text-2xl"></i>
+            </div>
+        </nav>
+        
+        <div class="heropage grid grid-cols-1 items-center px-4 py-10 lg:grid-cols-2 lg:px-12">
+            <div class="pt-12 lg:pt-0">
+                <h1 class="text-4xl font-[700] leading-tight sm:text-[65px]">Hosting digital technology web solution!</h1>
+                <p class="text-base py-8">Automated Control Panel with Up to 50% Off Hosting Starting from $2.50/Month.</p>
+                <button class="btn relative overflow-hidden group bg-[#eb566c] px-8 py-3 uppercase rounded-full">  
+                    <div class="absolute bg-[#dc3545] inset-0 w-0 transition-all duration-300 ease-in-out group-hover:w-full"></div>
+                    <h4 class="relative ">get started</h4>
+                </button>
+            </div>
+            <div class="hidden lg:block">
+                <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/hero/hero_right.png.webp" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- services -->
+    <section class="services pt-32 py-12 px-4 lg:px-12 bg-[#f8f5f2]">
+        <div class="heading text-center">
+            <span class="text-[#eb566c] text-sm font-[700] mx-16 md:text-lg">Oue Best Services</span>
+            <h1 class="text-[#28395a] text-3xl font-semibold leading-tight md:text-[50px]">What we have for you</h1>
+        </div>
+        <div class="grid grid-cols-1 gap-8 pt-20 lg:grid-cols-3">
+            <div class="bg-white group">
+                <div class="py-20 px-6 lg:px-16">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="70" height="70" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M512 165a44.747 44.747 0 0 0-3.45-17.301l-.006-.013L458.539 27.69C451.529 10.869 435.224 0 417.001 0H94.999C76.776 0 60.471 10.869 53.461 27.69L3.45 147.698A44.755 44.755 0 0 0 0 165v62c0 11.517 4.354 22.032 11.495 30C4.354 264.968 0 275.483 0 287v60c0 11.517 4.354 22.032 11.495 30C4.354 384.968 0 395.483 0 407v60c0 24.813 20.187 45 45 45h422c24.813 0 45-20.187 45-45v-60c0-11.517-4.354-22.032-11.495-30 7.142-7.968 11.495-18.483 11.495-30v-60c0-11.517-4.354-22.032-11.495-30 7.142-7.968 11.495-18.483 11.495-30v-62zM81.153 39.23A14.962 14.962 0 0 1 94.999 30h322.002a14.962 14.962 0 0 1 13.846 9.23l33.66 80.77H47.493l33.66-80.77zM482 467c0 8.271-6.729 15-15 15H45c-8.271 0-15-6.729-15-15v-60c0-8.271 6.729-15 15-15h422c8.271 0 15 6.729 15 15v60zm0-120c0 8.271-6.729 15-15 15H45c-8.271 0-15-6.729-15-15v-60c0-8.271 6.729-15 15-15h422c8.271 0 15 6.729 15 15v60zm0-120c0 8.271-6.729 15-15 15H45c-8.271 0-15-6.729-15-15v-62c0-8.342 6.736-15 15-15h422c8.29 0 15 6.684 15 15v62z" fill="#000000" data-original="#000000" class=""></path><path d="M437 422H165c-8.284 0-15 6.716-15 15s6.716 15 15 15h272c8.284 0 15-6.716 15-15s-6.716-15-15-15zM437 180H165c-8.284 0-15 6.716-15 15s6.716 15 15 15h272c8.284 0 15-6.716 15-15s-6.716-15-15-15zM75 180c-8.284 0-15 6.716-15 15s6.716 17 15 17 15-8.716 15-17-6.716-15-15-15zM437 302H165c-8.284 0-15 6.716-15 15s6.716 15 15 15h272c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#000000" data-original="#000000" class=""></path><circle cx="75" cy="317" r="15" fill="#000000" data-original="#000000" class=""></circle><circle cx="75" cy="437" r="15" fill="#000000" data-original="#000000" class=""></circle></g></svg>
+                </div>
+                <div class="px-6 lg:px-16">
+                    <h1 class="text-[30px] text-[#28395a] font-semibold">Shared Hosting</h1>
+                    <p class="text-[#10285d] text-base pt-2 leading-7">Hunky dory barney fannaround up the duff no biggie loo cup of tea jolly good ruddy!</p>
+                    <span class="flex items-center space-x-2 pt-8">
+                        <i class="fa-solid fa-arrow-right p-1 rounded-full bg-[#10285d] text-white group-hover:bg-[#dc3545] transition duration-300"></i>
+                        <p class="text-[13px] text-[#10285d] font-[700] uppercase group-hover:text-[#dc3545]">get started</p>
+                    </span>
+                </div>
+                <div class="pt-12 flex items-center justify-between">
+                    <img class="hidden md:block" src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/shape-services.png.webp" alt="">
+                    <h1 class="text-[40px] text-[#eb566c] font-semibold mx-auto">.01</h1>
+                </div>
+            </div>
+            <div class="bg-white group">
+                <div class="py-20 px-6 lg:px-16">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="70" height="70" x="0" y="0" viewBox="0 0 682 682.666" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M630.203 74.59c-9.246-29.078-21.777-49.899-22.308-50.774-2.055-3.386-6.286-5.148-10.118-4.27-.992.227-24.656 5.75-51.953 19.384-36.851 18.398-62.594 42.96-74.453 71.02-9.871 23.366-11.289 51.933-4.285 83.491-14.918-16.66-31.7-31.234-49.992-43.504-5.586-11.035-20.356-38.203-43.446-66.597-7.605-9.348-22.234 2.383-14.55 11.824 15.558 19.137 27.27 37.957 34.593 50.887l-85.402-16.649-81.14-110.675c7.878.109 15.785.87 23.652 2.414 24.941 4.882 49.578 17.586 73.238 37.75 9.27 7.902 21.309-6.48 12.16-14.274-26.136-22.273-53.656-36.367-81.797-41.879-42.957-8.406-93.058 2.63-144.902 31.926C70.86 56.5 45.02 80.484 43.941 81.492c-3.457 3.23-4.007 9.098-1.113 12.871 3.79 7.774 18.149 35.817 42.05 66.008 14.09 17.8 28.95 33.035 44.321 45.555a221.99 221.99 0 0 0-12.73 11.515c-21.969 21.489-38.79 46.836-49.832 74.547-9.762 24.485-15.012 50.825-15.305 77.973-.484 44.394 12.379 87.21 37.207 123.828 24.254 35.766 58.16 63.227 98.05 79.41 11.165 4.52 18.224-12.844 7.052-17.375a197.935 197.935 0 0 1-40.555-22.308c1.602-8.883 5.316-40.852-15.918-73.946-2.973-4.629 5.914-22.808 11.219-33.668 5.476-11.191 11.129-22.761 13.77-33.656 2.804-11.574-.352-21.289-9.122-28.105-6.437-5.004-14.863-7.594-22.289-9.88-4.824-1.484-10.293-3.163-12.246-4.792-4.023-3.371-10.594-15.828-15.875-25.832-5.86-11.098-11.437-21.66-17.133-28.164 12.817-30.438 33.403-57.371 59.184-77.977 23.55 16.043 50.43 27.113 79 29.356-33.133 25.671-43.852 58.457-28.531 89.949 17.89 36.773 54.714 30.898 87.203 25.722 5.62-.898 11.437-1.824 17.007-2.52 2.09-.26 2.72.31 3.141.68 7.113 6.329 6.902 36.551 6.75 58.622-.207 30.527-.402 59.363 10.969 74.168 5.8 7.547 13.969 11.406 23.543 11.406 5.738 0 11.972-1.383 18.512-4.188 28.277-12.109 57.671-48.554 53.187-77.39-3.918-25.211-6.512-41.867-.398-55.293 5.652-12.426 19.316-23.93 46.226-38.61a197.916 197.916 0 0 1 4.68 45.098c-.574 52.867-21.707 102.348-59.5 139.32-42.238 41.32-101.602 61.727-160.324 55.254-11.965-1.297-14.032 17.32-2.051 18.64 64.277 7.08 129.265-15.265 175.484-60.487 41.38-40.48 64.512-94.645 65.14-152.528.837-76.746-38.542-144.738-98.487-183.906 12.386-8.832 21.613-16.469 26.73-20.902 21.856 15.68 41.242 34.996 57.371 57.5 38.719 54.035 54.074 119.906 43.246 185.492C491.211 548.266 362.88 640.23 227.47 617.859c-65.59-10.832-123.032-46.55-161.75-100.586-38.723-54.03-54.078-119.91-43.246-185.492 1.945-11.8-16.543-14.898-18.496-3.054-11.653 70.527 4.867 141.367 46.496 199.472 41.636 58.098 103.414 96.512 173.941 108.164a271.304 271.304 0 0 0 44.18 3.637c55.43 0 109.351-17.21 155.3-50.137 58.114-41.636 96.532-103.402 108.176-173.93 8.535-51.68 1.93-103.527-18.586-150.41 9.47-2.793 25.582-8.214 43.23-17.027 36.845-18.398 62.59-42.96 74.446-71.02 11.867-28.066 11.535-63.644-.957-102.886zM86.04 332.387c6.977 13.226 13.574 25.726 20.43 31.46 4.855 4.06 11.613 6.137 18.765 8.337 18.325 5.632 20.453 8.398 18.696 15.644-2.157 8.91-7.36 19.55-12.387 29.836-9.684 19.813-18.828 38.516-10.16 52.031a89.17 89.17 0 0 1 14.187 49.746c-55.843-50.355-78.582-129.89-57.78-202.18 2.757 4.727 5.655 10.22 8.25 15.126zM539.652 148.14l-26.644-64.57c12.965-12.126 28.008-21.25 40.82-27.676 10.914-5.477 21.297-9.57 29.625-12.473zm61.086-97.45c3.723 8 8.04 18.317 11.727 29.977 4.043 12.797 7.754 28.656 8.492 45.2l-62.441 25.76zM488.641 117.25c2.765-6.54 6.34-12.602 10.468-18.2l30.332 73.497-27.218 65.086c-3.825-8.113-8.328-18.77-12.149-30.875-7.668-24.238-14.137-59.45-1.433-89.508zm60.066 114.281c-10.504 5.274-20.527 9.266-28.691 12.145l28.246-67.528 71.898-29.668c-1.043 8.055-3.031 16.04-6.27 23.696-12.699 30.058-42.456 49.96-65.183 61.355zm-338.074-5.336a126.526 126.526 0 0 1-9.805-2.343l103.766-76.063 85.441 16.652c-31.125 24.524-106.87 75.965-179.402 61.754zm-94.832-58.66c-22.192-23.918-38.457-49.492-47.797-65.867l108.73 21.2zm19.203-125.09 45.492 62.051L71.062 83.164c13.778-10.879 36.52-27.21 63.942-40.719zm72.617 67.34-55.152-75.23c16.511-6.785 34.234-12.125 52.402-14.5l76.297 104.062zm-5.836 17.965 77.762 15.156-99.8 73.153c-18.821-8.692-35.759-21.188-50.579-35.079zm254.406 183.086c-33.8 18.008-50.351 32.152-58.203 49.406-8.433 18.528-5.343 38.414-1.066 65.938 2.527 16.23-16.762 46.453-42.035 57.277-9.352 4.004-16.012 3.531-19.805-1.41-7.45-9.695-7.246-39.04-7.086-62.613.223-32.618.418-60.786-13.039-72.758-4.84-4.305-11.031-6.125-17.91-5.281-5.895.734-11.875 1.687-17.652 2.609-34.465 5.492-56.153 7.691-67.387-15.406-18.203-37.41 18.644-65.121 35.332-75.297 3.398-2.07 6.55-4.512 9.48-7.23 40.332-4.821 78.442-22.126 112.403-43.801 40.718 24.328 71.976 62.828 86.968 108.566zm0 0" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                </div>
+                <div class="px-6 lg:px-16">
+                    <h1 class="text-[30px] text-[#28395a] font-semibold">Reseller Hosting</h1>
+                    <p class="text-[#10285d] text-base pt-2 leading-7">Hunky dory barney fannaround up the duff no biggie loo cup of tea jolly good ruddy!</p>
+                    <span class="flex items-center space-x-2 pt-8">
+                        <i class="fa-solid fa-arrow-right p-1 rounded-full bg-[#10285d] text-white group-hover:bg-[#dc3545] transition duration-300"></i>
+                        <p class="text-[13px] text-[#10285d] font-[700] uppercase group-hover:text-[#dc3545]">get started</p>
+                    </span>
+                </div>
+                <div class="pt-12 flex items-center justify-between">
+                    <img class="hidden md:block" src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/shape-services.png.webp" alt="">
+                    <h1 class="text-[40px] text-[#eb566c] font-semibold mx-auto">.02</h1>
+                </div>
+            </div>
+            <div class="bg-white group">
+                <div class="py-20 px-6 lg:px-16">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="70" height="70" x="0" y="0" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M334 57.959c-5.522 0-10 4.507-10 10.03s4.478 10.001 10 10.001 10-4.477 10-10v-.061c0-5.523-4.477-9.97-10-9.97zM295.542 41.572C270.477 37.333 237.612 35 203 35c-5.522 0-10 4.477-10 10s4.478 10 10 10c33.528 0 65.209 2.234 89.206 6.291a9.999 9.999 0 0 0 1.679.142c4.79 0 9.023-3.454 9.849-8.334.92-5.446-2.747-10.606-8.192-11.527zM446 383.999c-5.522 0-10 4.477-10 10 0 11.219-4.369 21.766-12.302 29.698-16.375 16.376-43.021 16.376-59.396 0-7.933-7.932-12.302-18.479-12.302-29.698s4.368-21.766 12.302-29.699a42.015 42.015 0 0 1 32.442-12.212c5.485.35 10.27-3.819 10.627-9.33.358-5.511-3.818-10.27-9.33-10.628a62.03 62.03 0 0 0-47.882 18.028c-11.71 11.71-18.159 27.28-18.159 43.841s6.449 32.13 18.159 43.841c12.087 12.087 27.964 18.13 43.841 18.13s31.754-6.043 43.841-18.13C449.551 426.13 456 410.56 456 393.999c0-5.523-4.477-10-10-10z" fill="#000000" data-original="#000000" class=""></path><path d="m437.872 350.188-.159-.159-7.118 7.024 7.071-7.071c-3.906-3.905-10.236-3.905-14.143 0-3.905 3.905-3.905 10.237 0 14.143l.147.146a9.966 9.966 0 0 0 7.101 2.958 9.972 9.972 0 0 0 7.042-2.899c3.921-3.889 3.947-10.221.059-14.142z" fill="#000000" data-original="#000000" class=""></path><path d="m504.417 367.818-14.517-3.616-7.021-16.94 7.702-12.814a9.999 9.999 0 0 0-1.499-12.223l-23.308-23.308a10 10 0 0 0-12.224-1.499l-12.813 7.703-16.94-7.021-3.617-14.518a9.998 9.998 0 0 0-9.703-7.583H406V67.99c0-20.58-22.01-38.07-63.65-50.582C304.989 6.182 255.5 0 203 0S101.013 6.182 63.651 17.408C22.01 29.919 0 47.41 0 67.99v376.02c0 20.58 22.01 38.07 63.65 50.582C101.013 505.818 150.5 512 203 512c22.181 0 43.956-1.105 64.722-3.285 5.493-.577 9.478-5.497 8.901-10.989-.576-5.494-5.511-9.479-10.989-8.901C245.56 490.932 224.485 492 203 492c-50.604 0-98.049-5.882-133.594-16.562C32.94 464.481 20 451.66 20 444.01v-94.214c10.541 7.357 25.154 13.899 43.65 19.456C101.013 380.478 150.5 386.66 203 386.66c15.327 0 30.597-.534 45.384-1.587 5.509-.392 9.657-5.176 9.265-10.685-.392-5.509-5.203-9.661-10.685-9.264-14.316 1.019-29.108 1.536-43.964 1.536-50.604 0-98.049-5.882-133.594-16.562C32.94 339.141 20 326.32 20 318.67v-94.215c10.542 7.357 25.155 13.899 43.651 19.456 37.36 11.226 86.849 17.408 139.349 17.408s101.988-6.182 139.349-17.408c18.497-5.558 33.11-12.1 43.651-19.456v51.544h-8.478a9.998 9.998 0 0 0-9.703 7.583l-3.617 14.518-16.94 7.021-12.813-7.703a10 10 0 0 0-12.224 1.499l-23.308 23.308a10 10 0 0 0-1.499 12.223l7.702 12.814-7.021 16.94-14.517 3.616a10 10 0 0 0-7.583 9.704v32.955a10 10 0 0 0 7.582 9.703l14.518 3.617 7.021 16.94-7.703 12.815a10.002 10.002 0 0 0 1.5 12.223l23.308 23.307a10.004 10.004 0 0 0 12.224 1.5l12.813-7.703 16.94 7.021 3.617 14.518a9.998 9.998 0 0 0 9.703 7.583h32.955a9.998 9.998 0 0 0 9.703-7.583l3.617-14.518 16.94-7.021 12.813 7.703a10 10 0 0 0 12.224-1.5l23.308-23.307a10.002 10.002 0 0 0 1.5-12.223l-7.703-12.815 7.021-16.94 14.518-3.617a10 10 0 0 0 7.582-9.703v-32.955a10 10 0 0 0-7.583-9.704zM69.406 36.562C104.951 25.882 152.396 20 203 20s98.049 5.882 133.594 16.562C373.062 47.519 386 60.34 386 67.99c0 7.65-12.939 20.471-49.406 31.427-35.545 10.68-82.989 16.562-133.594 16.562s-98.049-5.882-133.594-16.562C32.94 88.46 20 75.64 20 67.99s12.94-20.471 49.406-31.428zm267.188 188.195c-35.545 10.68-82.989 16.562-133.594 16.562s-98.049-5.882-133.594-16.562C32.94 213.801 20 200.98 20 193.33V99.115c10.542 7.357 25.155 13.899 43.651 19.456 37.36 11.226 86.849 17.408 139.349 17.408s101.988-6.182 139.349-17.408c18.497-5.558 33.11-12.1 43.651-19.456v94.215c0 7.65-12.938 20.471-49.406 31.427zM492 402.662l-11.826 2.947a9.999 9.999 0 0 0-6.82 5.875l-10.881 26.255a9.997 9.997 0 0 0 .668 8.98l6.274 10.439-12.256 12.256-10.438-6.275a10.003 10.003 0 0 0-8.98-.667l-26.256 10.88a10 10 0 0 0-5.875 6.821l-2.946 11.826h-17.326l-2.946-11.826a10 10 0 0 0-5.875-6.821l-26.256-10.88a9.998 9.998 0 0 0-8.98.667l-10.438 6.275-12.256-12.256 6.274-10.439a9.997 9.997 0 0 0 .668-8.98l-10.881-26.255a10.001 10.001 0 0 0-6.82-5.875L296 402.662v-17.326l11.825-2.946a10.003 10.003 0 0 0 6.821-5.875l10.881-26.255a9.997 9.997 0 0 0-.668-8.98l-6.274-10.439 12.256-12.256 10.438 6.275a9.993 9.993 0 0 0 8.98.668l26.256-10.881a10 10 0 0 0 5.875-6.821L385.337 296h17.326l2.946 11.826a10 10 0 0 0 5.875 6.821l26.256 10.881a10.003 10.003 0 0 0 8.98-.668l10.438-6.275 12.256 12.256-6.274 10.439a9.997 9.997 0 0 0-.668 8.98l10.881 26.255a10.003 10.003 0 0 0 6.821 5.875L492 385.336v17.326z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                </div>
+                <div class="px-6 lg:px-16">
+                    <h1 class="text-[30px] text-[#28395a] font-semibold">Cloud Hosting</h1>
+                    <p class="text-[#10285d] text-base pt-2 leading-7">Hunky dory barney fannaround up the duff no biggie loo cup of tea jolly good ruddy!</p>
+                    <span class="flex items-center space-x-2 pt-8">
+                        <i class="fa-solid fa-arrow-right p-1 rounded-full bg-[#10285d] text-white group-hover:bg-[#dc3545] transition duration-300"></i>
+                        <p class="text-[13px] text-[#10285d] font-[700] uppercase group-hover:text-[#dc3545]">get started</p>
+                    </span>
+                </div>
+                <div class="pt-12 flex items-center justify-between">
+                    <img class="hidden md:block" src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/shape-services.png.webp" alt="">
+                    <h1 class="text-[40px] text-[#eb566c] font-semibold mx-auto">.03</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- your domain -->
+    <section class="mt-32 py-16 px-4 bg-[#020230] text-white lg:px-12">
+        <div class="flex flex-col justify-between pt-28 py-12 lg:flex-row">
+            <div class="header">
+                <span class="text-[#eb566c] text-lg font-[700]">Get your domain</span>
+                <h1 class="text-3xl font-semibold leading-none md:w-80 pt-8 md:text-[50px]">Search domain you want</h1>
+            </div>
+            <div class="flex flex-col items-center md:flex-row pt-12 lg:pt-0">
+                <input class="text-lg text-[#777777] border-none rounded-full md:rounded-s-full h-14 w-60 sm:w-80 md:w-96 lg:w-[600px]" type="text" placeholder="Search your domain name here">
+                <div class="btn pt-8 md:pt-0">
+                    <a class="bg-[#eb566c] p-4 uppercase tracking-widest rounded-full md:rounded-e-full" href="" style="font-family: 'Oswald', sans-serif;">search now</a>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-5 border border-[#032a57] rounded-xl p-4 md:grid-cols-3 lg:grid-cols-6">
+            <div class="border-r-[1px] border-[#032a57] py-2">
+                <span class="text-base font-[700] text-[#ff7474]">.com</span>
+                <p class="text-[#636376] text-base font-normal">$3.99/Year</p>
+            </div>
+            <div class="border-r-0 md:border-r-[1px] md:border-[#032a57] py-2">
+                <span class="text-base font-[700] text-[#ffdd74]">.net</span>
+                <p class="text-[#636376] text-base font-normal">$2.99/Year</p>
+            </div>
+            <div class="border-r-[1px] border-[#032a57] md:border-r-0 lg:border-r-[1px] lg:border-[#032a57] py-2">
+                <span class="text-base font-[700] text-[#74ff9f]">.co</span>
+                <p class="text-[#636376] text-base font-normal">$3.99/Year</p>
+            </div>
+            <div class="border-r-0 md:border-r-[1px] md:border-[#032a57] py-2">
+                <span class="text-base font-[700] text-[#748bff]">.in</span>
+                <p class="text-[#636376] text-base font-normal">$5.99/Year</p>
+            </div>
+            <div class="border-r-[1px] border-[#032a57] py-2">
+                <span class="text-base font-[700] text-[#f074ff]">.org</span>
+                <p class="text-[#636376] text-base font-normal">$2.99/Year</p>
+            </div>
+            <div class="py-2">
+                <span class="text-base font-[700] text-[#f074ff]">.live</span>
+                <p class="text-[#636376] text-base font-normal">$1.99/Year</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- get domain -->
+    <section class="mt-32 py-16">
+        <div class="grid grid-cols-1 items-center lg:grid-cols-2 px-4 lg:pl-28">
+            <div class="heading">
+                <span class="text-[#eb566c] text-sm font-[700] mx-16 md:text-lg">Get your domain</span>
+                <h1 class="text-[#28395a] text-3xl font-semibold pt-6 leading-tight md:text-[50px] lg:w-[90%]">We are with you every step of the way</h1>
+                <p class="text-[#10285d] leading-8 pt-6 md:w-[83%]">Cnsectetur adipisicing cvbelit, sxced dbeo eiucdsmod tempor incididunt ut labore egsfgt dolore magna aliqua. Ut encim ad minim veniam, quis nostrud exercitation ulclamco laboris nisi ufgut aliquip edgx ebrha.</p>
+                <p class="text-[#10285d] leading-8 pt-6 md:w-[83%]">Cnsectetur adipisicing cvbelit, sxced dbeo eiucdsmod tempor incididunt ut labore egsfgt folorem.</p>
+                <button class="btn relative overflow-hidden group bg-[#eb566c] px-8 py-3 uppercase rounded-full mt-6">  
+                    <div class="absolute bg-[#dc3545] inset-0 w-0 transition-all duration-300 ease-in-out group-hover:w-full"></div>
+                    <h4 class="relative text-white">get started</h4>
+                </button>
+            </div>
+            <div class="pt-12 lg:pt-0">
+                <img class="w-full h-full" src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/visit_bg.jpg.webp" alt="">
+            </div>
+        </div>
+        <div class="mt-32 py-16 px-4 lg:px-12">
+           <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="heading">
+                    <span class="text-[#eb566c] text-sm font-[700] mx-16 md:text-lg">Get your domain</span>
+                    <h1 class="text-[#28395a] text-[28px] font-semibold pt-6 leading-tight md:text-[50px] lg:w-[90%]">We are with you every step of the way</h1>
+                </div>
+                <div class="grid grid-cols-1 pt-6 lg:pt-0 md:grid-cols-3">
+                    <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/cisco_brand.png" alt="">
+                    <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/cisco_brand2.png" alt="">
+                    <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/cisco_brand3.png" alt="">
+                    <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/cisco_brand4.png" alt="">
+                    <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/cisco_brand5.png" alt="">
+                    <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/cisco_brand6.png" alt="">
+                </div>
+           </div>
+        </div>
+        <div class="mt-32 py-16 px-4 lg:px-12">
+            <div class="grid grid-cols-1 gap-32 items-center md:grid-cols-2">
+                <div class="bg-[#ff4f5b] text-white w-full md:w-[70%] text-center">
+                    <div class="float-right">
+                        <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/procing-shape2.png.webp" alt="">
+                    </div>
+                    <div class="px-4 pt-16">
+                        <div class="pb-12">
+                            <img class="mx-auto bg-[#fce0d8] p-7 rounded-[90px]" src="https://preview.colorlib.com/theme/webhostingservice/assets/img/icon/roket.png" alt="">
+                        </div>
+                        <span class="text-4xl font-bold">$05.00</span>
+                        <hr class="mt-8">
+                        <div class="font-light space-y-5 pt-8">
+                            <p>Increase traffic 50%</p>
+                            <p>Social Media Marketing</p>
+                            <p>10 Free Optimization</p>
+                            <p>24/7 support</p>
+                        </div>
+                        <button class="btn relative overflow-hidden group bg-white px-8 py-3 uppercase rounded-full mt-8">  
+                            <div class="absolute bg-[#dc3545] inset-0 w-0 transition-all duration-300 ease-in-out group-hover:w-full"></div>
+                            <h4 class="relative text-black group-hover:text-white transition-all duration-300 ease-in-out">get started</h4>
+                        </button>
+                    </div>
+                    <div class="-mt-16">
+                        <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/procing-shape1.png.webp" alt="">
+                    </div>
+                </div>
+                <div class="">
+                    <div class="heading">
+                        <span class="text-[#eb566c] text-sm font-[700] mx-16 md:text-lg">Oue Best Services</span>
+                        <h1 class="text-[#28395a] text-[28px] font-semibold pt-6 leading-tight md:text-[50px]">Our pricing</h1>
+                        <p class="text-[#10285d] leading-8 pt-6">Cnsectetur adipisicing cvbelit, sxced dbeo eiucdsmod tempor incididunt ut labore egsfgt dolore magna aliqua. Ut encim ad minim veniam, quis nostrud exercitation ulclamco laboris nisi ufgut aliquip edgx ebrha.</p>
+                        <div class="flex mt-12">
+                            <h5 class="text-base font-normal text-white uppercase bg-[#ff4f5b] rounded-s-full px-8 py-3">monthly</h5>
+                            <h5 class="text-base font-normal text-[#10285d] uppercase bg-[#fce0d8] rounded-e-full px-8 py-3">yearly</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="grid grid-cols-1 gap-11 items-center py-16 px-4 lg:grid-cols-2 lg:px-28">
+                <div class="">
+                    <div class="flex items-center space-x-6">
+                        <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/testmonial/Homepage_testi.png" alt="">
+                        <div class="">
+                            <span class="text-[#eb566c] text-[30px] font-semibold">Jahon Ann</span>
+                            <p class="text-[#57667e]">CEO, Colorlib</p>
+                        </div>
+                    </div>
+                    <p class="text-[#10285d] text-lg font-semibold pt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrice.</p>
+                </div>
+                <div class="">
+                    <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/testimonail.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 24x7 expert support -->
+    <section class="py-28 px-4 bg-[url('https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/section_bg03.jpg.webp')] bg-center bg-no-repeat bg-cover lg:px-12">
+        <div class="grid grid-cols-1 items-center lg:grid-cols-2">
+            <div class="heading">
+                <span class="text-[#eb566c] text-sm font-[700] mx-16 md:text-lg">Get your domain</span>
+                <h1 class="text-white text-[28px] font-semibold py-6 leading-tight md:text-[50px]">24/7 Expert Support</h1>
+                <p class="text-white w-[77%]">Our expert team is always on hand to help answer your questions, get you started, and grow your presence online. You can call, chat or email us any time!</p>
+            </div>
+            <div class="flex flex-col pt-5 lg:pt-0 md:flex-row">
+                <div class="bg-[#eb566c] w-[165px] h-[136px] rounded-lg text-center mx-[15px]">
+                    <i class="fa-solid fa-phone-volume text-white font-bold bg-[#ff6b81] p-4 rounded-full mt-6"></i>
+                    <p class="text-base text-white font-[700]">+91 1234</p>
+                </div>
+                <div class="bg-[#eb566c] w-[165px] h-[136px] rounded-lg text-center mx-[15px] mt-7 md:mt-0">
+                    <i class="fa-regular fa-comment text-white font-bold bg-[#ff6b81] p-4 rounded-full mt-6"></i>
+                    <p class="text-base text-white font-[700]">Text Us</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- blog -->
+    <section class="mt-32 py-16 px-4 lg:px-12">
+        <div class="heading text-center">
+            <span class="text-[#eb566c] text-sm font-[700] mx-16 md:text-lg">Our Blog</span>
+            <h1 class="text-[#28395a] text-3xl font-semibold leading-tight md:text-[50px]">Our latest news</h1>
+        </div>
+        <div class="grid grid-cols-1 gap-4 mt-14 lg:grid-cols-3">
+            <div class="">
+                <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/blog1.png" alt="">
+                <div class="relative bg-[#fff9f9] rounded-2xl p-10 -mt-24 w-[84%] md:w-[301px] ml-10">
+                    <span class="text-[#57667e] text-sm font-semibold uppercase">23 dec, 2020</span>
+                    <p class="text-xl font-[700] text-[#0b1c39] hover:text-[#eb566c] transition duration-500 cursor-pointer">Addiction When Gambling Becomes</p>
+                </div>
+            </div>
+            <div class="">
+                <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/blog2.png" alt="">
+                <div class="relative bg-[#fff9f9] rounded-2xl p-10 -mt-24 w-[84%] md:w-[301px] ml-10">
+                    <span class="text-[#57667e] text-sm font-semibold uppercase">23 dec, 2020</span>
+                    <p class="text-xl font-[700] text-[#0b1c39] hover:text-[#eb566c] transition duration-500 cursor-pointer">Addiction When Gambling Becomes</p>
+                </div>
+            </div>
+            <div class="">
+                <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/blog3.png" alt="">
+                <div class="relative bg-[#fff9f9] rounded-2xl p-10 -mt-24 w-[84%] md:w-[301px] ml-10">
+                    <span class="text-[#57667e] text-sm font-semibold uppercase">23 dec, 2020</span>
+                    <p class="text-xl font-[700] text-[#0b1c39] hover:text-[#eb566c] transition duration-500 cursor-pointer">Addiction When Gambling Becomes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="mt-32 py-16 px-4 bg-[url('https://preview.colorlib.com/theme/webhostingservice/assets/img/gallery/footer_bg.jpg.webp')] bg-center bg-no-repeat bg-cover lg:px-12">
+        <div class="grid grid-cols-1 lg:grid-cols-3">
+            <div class="">
+                <img src="https://preview.colorlib.com/theme/webhostingservice/assets/img/logo/logo2_footer.png" alt="">
+            </div>
+            <div class="col-span-2 pt-12 lg:pt-0">
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+                    <div class="">
+                        <span class="text-white text-xl font-medium">All Packages</span>
+                        <p class="text-[#8ba4b1] font-light text-base pt-7 w-20translate-x-0  hover:text-[#eb566c] hover:translate-x-1 cursor-pointer transition duration-300">Package-1</p>
+                        <p class="text-[#8ba4b1] font-light text-base pt-4 w-20translate-x-0  hover:text-[#eb566c] hover:translate-x-1 cursor-pointer transition duration-300">Package-2</p>
+                        <p class="text-[#8ba4b1] font-light text-base pt-4 w-20translate-x-0  hover:text-[#eb566c] hover:translate-x-1 cursor-pointer transition duration-300">Package-3</p>
+                        <p class="text-[#8ba4b1] font-light text-base pt-4 w-0 translate-x-0 hover:text-[#eb566c] hover:translate-x-1 cursor-pointer transition duration-300">Custome</p>
+                    </div>
+                    <div class="mt-7 md:mt-0">
+                        <span class="text-white text-xl font-medium">Quick Link</span>
+                        <p class="text-[#8ba4b1] font-light text-base pt-7 w-24 translate-x-0 hover:text-[#eb566c] hover:translate-x-1 cursor-pointer transition duration-300">Contact Us</p>
+                        <p class="text-[#8ba4b1] font-light text-base pt-4 w-[70px] translate-x-0 hover:text-[#eb566c] hover:translate-x-1 cursor-pointer transition duration-300">About Us</p>
+                        <p class="text-[#8ba4b1] font-light text-base pt-4 w-28 translate-x-0 hover:text-[#eb566c] hover:translate-x-1 cursor-pointer transition duration-300">News & Article</p>
+                        <p class="text-[#8ba4b1] font-light text-base pt-4 w-[100px] translate-x-0 hover:text-[#eb566c] hover:translate-x-1 cursor-pointer transition duration-300">Privacy Policy</p>
+                    </div>
+                    <div class="mt-7 md:mt-0">
+                        <span class="text-white text-xl font-medium">+91 1234567890</span>
+                        <p class="text-[#8ba4b1] font-light text-base pt-7 w-0 translate-x-0 hover:text-[#eb566c] hover:translate-x-1 cursor-pointer transition duration-300">youremaili@gmail.com</p>
+                        <p class="text-[#8ba4b1] text-base pt-4">123 East 26th Street, Fifth Floor, Surat, Gujarat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="border-[#1c2e4c] mt-12">
+        <div class="flex flex-col justify-between items-center pt-12 lg:flex-row">
+            <div class="">
+                <span class="text-[#8ba4b1] text-base">Copyright ©2023 All rights reserved | This template is made with  <i class="fa-solid fa-heart text-[#eb566c]"></i>
+                    by <span class="text-[#eb566c]">Abhijeet</span></span>
+            </div>
+            <div class="pt-8 space-x-4 lg:pt-0">
+                <i class="fa-brands fa-facebook-f border text-[#8ba4b1] text-sm px-3 py-2 rounded-full hover:bg-[#eb566c] hover:text-white hover:border-[#eb566c] transition duration-300"></i>
+                <i class="fa-brands fa-twitter border text-[#8ba4b1] text-sm px-3 py-2 rounded-full hover:bg-[#eb566c] hover:text-white hover:border-[#eb566c] transition duration-300"></i>
+                <i class="fa-solid fa-globe border text-[#8ba4b1] text-sm px-3 py-2 rounded-full hover:bg-[#eb566c] hover:text-white hover:border-[#eb566c] transition duration-300"></i>
+                <i class="fa-brands fa-instagram border text-[#8ba4b1] text-sm px-3 py-2 rounded-full hover:bg-[#eb566c] hover:text-white hover:border-[#eb566c] transition duration-300"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
